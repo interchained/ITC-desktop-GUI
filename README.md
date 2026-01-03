@@ -273,7 +273,7 @@ pnpm build
 interchainedd -daemon
 
 # Check RPC is working
-bitcoin-cli -rpcuser=youruser -rpcpassword=yourpass getblockchaininfo
+interchained-cli -rpcuser=youruser -rpcpassword=yourpass getblockchaininfo
 
 # Launch wallet
 pnpm dev:studio
